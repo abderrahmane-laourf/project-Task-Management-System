@@ -14,7 +14,8 @@ A simple, lightweight web application to manage tasks with CRUD operations (Crea
 - **🔍 Search Tasks**: Find tasks by name or description.
 - **🌙 Dark Mode & 🌞 Light Mode**: Switch between themes for comfort.
 
-## 🎥 Live Demo
+## 🖼️image with light mode
+
 Experience the app in action:
 Live Demo Link
 
@@ -33,12 +34,12 @@ To get started with the Task Manager app, follow these steps:
 
 1. **Clone the repository** to your local machine by running the following command in your terminal:
     ```bash
-    git clone https://github.com/yourusername/task-manager-app.git
+    https://github.com/abderrahmane-laourf/project-Task-Management-System.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd task-manager-app
+    project crud
     ```
 
 3. **Open the `index.html` file** in your browser, or use a Live Server extension for real-time preview and development:
