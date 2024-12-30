@@ -1,6 +1,3 @@
-
-Certainly! Here's a revised structure for the README that’s well-organized and easy to follow:
-
 # Task Manager App 📋
 A simple, lightweight web application to manage tasks with CRUD operations (Create, Read, Update, Delete), search functionality, and theme switching. Built using HTML, CSS, and JavaScript.
 
