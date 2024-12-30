@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/light_mode.css" id="main-stylesheet">
+    <title>CRUDS</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="head">
+            <button id="dark"><i class="fa-solid fa-moon"></i></button>
+            <button id="light" class="hidden"><i class="fa-solid fa-lightbulb"></i></button>
+            <h1>CRUDS</h1>
+            <h4>PRODUCT MANAGEMENT SYSTEME</h4>
+        </div>
+        <div class="input">
+            <input type="text" name="" id="title" placeholder="title">
+            <div class="calcul">
+                <input onkeyup="calcul()" type="number" placeholder="price" id="price">
+                <input onkeyup="calcul()" type="number" placeholder="taxes" id="taxes">
+                <input onkeyup="calcul()" type="number" placeholder="ads" id="ads">
+                <input onkeyup="calcul()" type="number" placeholder="discount" id="discount">
+                <small id="total"></small>
+            </div>
+            <input type="number" placeholder="count" id="count">
+            <input type="text" placeholder="category" id="Categoris">
+            <button id="creat"><i class="fa-solid fa-plus"></i>CREAT</button>
+        </div>
+        <div class="output">
+            <div class="search">
+                <input onkeyup="searchdata(this.value)" id="search" type="text" placeholder="search">
+                <div class="btnSearch">
+                    <button onclick="getsearchmmod(this.id)" id="SearchTitle"><i
+                            class="fa-solid fa-magnifying-glass"></i>SEARCH TITLE</button>
+                    <button onclick="getsearchmmod(this.id)" id="SearchCategori"><i
+                            class="fa-solid fa-magnifying-glass"></i>SEARCH CATEGORI</button>
+                </div>
+                <div class="delet">
+                    <button id="dellet" onclick="delet_all()"><i class="fa-solid fa-trash"></i>DELET ALL</button>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>PRICE</th>
+                    <th>TAXES</th>
+                    <th>ADS</th>
+                    <th>DISCOUNT</th>
+                    <th>TOTAL</th>
+                    <th>CATEGORY</th>
+                    <th>UPDATE</th>
+                    <th>DELET</th>
+                </tr>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+        <script src="/main.js"></script>
+</body>
+
+</html>

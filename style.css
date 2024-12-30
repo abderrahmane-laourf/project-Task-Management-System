@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Rubik+Maps&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Rubik+Maps&family=Tiny5&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #141212e7, #0c161a, #0a161b);
+    color: white;
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.container .head {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+input {
+    width: 100%;
+    margin: 6px 0px;
+    padding: 10px;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #0e414256;
+    border: 1px solid #1f8b8d56;
+    color: rgba(255, 255, 255, 0.952);
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 500;
+    transition: background 1.5s ease;
+}
+
+.calcul>input:focus {
+    background: linear-gradient(to right, #000000, #182433, #1e3641e7);
+    color: white;
+    transition: all 1s ease;
+    scale: 1.1;
+}
+
+#title:focus,
+#count:focus,
+#Categoris:focus {
+    background: linear-gradient(to right, #000000, #182433, #1e3641e7);
+}
+
+.calcul input {
+    width: 24%;
+    margin: 4px 4px;
+}
+
+button {
+    width: 100%;
+    margin: 4px 0px;
+    padding: 4px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button#creat {
+    background-color: #00e1ff94;
+    transition: letter-spacing 0.5s ease, background-color 1s ease;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+button#creat:hover {
+    background-color: green;
+    letter-spacing: 1px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.719);
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#total {
+    background-color: red;
+    padding: 4px;
+    border-radius: 10px;
+    display: block;
+}
+
+#total::before {
+    content: 'TOTAL : ';
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 500;
+}
+
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+}
+
+#delet {
+    margin: 10px 0px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+
+}
+
+table tr>th {
+    border-bottom: 1px solid #135b5e;
+}
+
+table th,
+td {
+    padding: 5px;
+}
+
+.search>input:focus {
+    background: linear-gradient(to right, #000000, #182433, #1e3641e7);
+}
+
+.btnSearch button {
+    width: 40%;
+}
+
+.btnSearch>button {
+    background-color: #00e1ff94;
+    transition: letter-spacing 0.5s ease, background-color 1s ease;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btnSearch>button:hover {
+    letter-spacing: 0.5px;
+}
+
+button i {
+    color: #00e1ff94;
+    background-color: black;
+    margin: 0px 4px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.delet>button {
+    background-color: #00e1ff94;
+    transition: all 1S EASE;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#dellet:hover i {
+    color: #ff000094;
+}
+
+.delet>button:hover {
+    background-color: #ff000094;
+    transition: letter-spacing 0.5s ease, background-color 1s ease;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#UPDATE,
+#DELETE {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#UPDATE {
+    background-color: green;
+}
+
+#DELETE {
+    background-color: red;
+}
+
+#light {
+    background-color: transparent;
+}
+
+#light i {
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}

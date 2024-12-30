@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Rubik+Maps&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Rubik+Maps&family=Tiny5&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F5F5;
+    color: #000000;
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.container .head {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+input {
+    width: 100%;
+    margin: 6px 0px;
+    padding: 4px;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #070707;
+    color: #212121;
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 500;
+    transition: background 1.5s ease;
+}
+
+.calcul>input:focus {
+    background: #E0E0E0;
+    color: #000000;
+    transition: all 1s ease;
+    scale: 1.1;
+}
+
+#title:focus,
+#count:focus,
+#Categoris:focus {
+    background: #E0E0E0;
+}
+
+.calcul input {
+    width: 24%;
+    margin: 4px 8px 4px 0px;
+}
+
+button {
+    width: 100%;
+    margin: 4px 0px;
+    padding: 4px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+button#creat {
+    background-color: #000000;
+    color: #FFFFFF;
+    transition: letter-spacing 0.5s ease, background-color 1s ease;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+button#creat:hover {
+    background-color: rgb(12, 145, 12);
+    letter-spacing: 1px;
+    color: black;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.548);
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#total {
+    background-color: red;
+    padding: 4px;
+    border-radius: 10px;
+    display: block;
+}
+
+#total::before {
+    content: 'TOTAL : ';
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 500;
+}
+
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+}
+
+#delet {
+    margin: 10px 0px;
+    background-color: #11100f;
+    color: #FFFFFF;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+table tr>th {
+    border-bottom: 1px solid #135b5e;
+}
+
+table th,
+td {
+    padding: 5px;
+
+}
+
+.search>input:focus {
+    background-color: #E0E0E0;
+    color: #212121;
+}
+
+.btnSearch button {
+    width: 40%;
+}
+
+.btnSearch>button {
+    background-color: #000000;
+    transition: letter-spacing 0.5s ease, background-color 1s ease;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.btnSearch>button:hover {
+    letter-spacing: 0.5px;
+}
+
+button i {
+    color: #ffffff;
+    background-color: black;
+    margin: 0px 4px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.delet>button {
+    background-color: #000000;
+    transition: all 1S EASE;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.delet>button:hover {
+    background-color: #ff000094;
+    transition: letter-spacing 0.5s ease, background-color 0.5s ease;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.delet>button:hover {
+    background-color: #ff0000;
+    transition: letter-spacing 0.5s ease, background-color 1s ease;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+
+#dellet:hover i {
+    color: red;
+}
+
+#UPDATE,
+#DELETE {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#UPDATE {
+    background-color: green;
+}
+
+#DELETE {
+    background-color: red;
+}
+
+#dark {
+    background-color: transparent;
+}
+
+#dark i {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 20px;
+}
+
+button.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 715px) {
+    #total {
+        display: block;
+    }
+}
