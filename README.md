@@ -56,7 +56,7 @@ This project is built using the following technologies:
 
 - **HTML**: Provides the basic structure and layout of the app.
 - **CSS**: Used for styling the app and enabling theme switching between light and dark modes.
-- **JavaScript**: Handles the core functionality, including CRUD operations (Create, Read, Update, Delete) and the theme toggle.
+- **JavaScript**: Handles the core functionality, including CRUD operations (Create, Read, Update, Delete) and the theme toggle
 
 ---
 
