@@ -1,7 +1,8 @@
 /**
  *  Product Management System - JavaScript Code
  *  
- *  This code implements a simple product management system with features to:
+ *  This code implements a simple product
+ management system with features to:
  *  - Add new products manually or from an external API.
  *  - Calculate total price based on price, taxes, ads, and discount.
  *  - Switch between light and dark mode.
