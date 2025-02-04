@@ -22,7 +22,6 @@ Experience the app in action:
 Live Demo Link
 
 # 📐 Preview
-
 *💭 How It Works
 Add Tasks: Fill in task details and click Add to create a task.
 Edit Tasks: Click Edit next to any task to update it.
