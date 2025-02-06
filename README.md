@@ -41,7 +41,7 @@ To get started with the Task Manager app, follow these steps:
     ```bash
     project crud
     ```
-
+    
 3. **Open the `index.html` file** in your browser, or use a Live Server extension for real time preview and development:
    - If you are using Visual Studio Code, you can install the Live Server extension and click on "Go Live" in the bottom-right corner to start the local server.
    - Alternatively, open `index.html` directly in your browser.
