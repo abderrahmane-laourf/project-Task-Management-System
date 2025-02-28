@@ -18,6 +18,7 @@ A simple, lightweight web application to manage tasks with CRUD operations (Crea
 ## 🖼️🌙  img with dark mode:
 ![Screenshot 2024-12-30 132608](https://github.com/user-attachments/assets/ee62debd-d9c1-4256-a577-2089ce0ad0be)
 
+
 Experience the app in action:
 Live Demo Link
 
