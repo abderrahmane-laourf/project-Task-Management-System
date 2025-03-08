@@ -76,4 +76,3 @@ If you find any bugs or have suggestions for improvements, feel free to open an 
 
 This project is licensed under the **MIT License**. You can freely use, modify, and distribute it under the terms of this license.
 
-
