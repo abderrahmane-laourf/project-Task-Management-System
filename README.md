@@ -21,6 +21,7 @@ A simple, lightweight web application to manage tasks with CRUD operations (Crea
 Experience the app in action:
 Live Demo Link
 
+
 # 📐 Preview
 *💭 How It Works
 Add Tasks: Fill in task details and click Add to create a task.
