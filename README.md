@@ -69,7 +69,7 @@ We welcome contributions from everyone! Here's how you can contribute:
 - **Create a pull request** with your changes for review.
 
 If you find any bugs or have suggestions for improvements, feel free to open an issue in the GitHub repository.
-n
+
 ---
 
 # 📜 License
