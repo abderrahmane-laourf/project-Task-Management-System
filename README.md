@@ -61,7 +61,6 @@ This project is built using the following technologies:
 # 🤝 Contributions
 
 We welcome contributions from everyone! Here's how you can contribute:
-
 - **Fork** the repository to create your own version.
 - **Clone** your fork to your local machine and make changes.
 - **Create a pull request** with your changes for review.
