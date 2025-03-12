@@ -60,7 +60,6 @@ This project is built using the following technologies:
 - **JavaScript**: Handles the core functionality, including CRUD operations (Create, Read, Update, Delete) and the theme toggle
 
 ---
-
 # 🤝 Contributions
 
 We welcome contributions from everyone! Here's how you can contribute:
