@@ -49,7 +49,6 @@ To get started with the Task Manager app, follow these steps:
    - If you are using Visual Studio Code, you can install the Live Server extension and click on "Go Live" in the bottom-right corner to start the local server.
    - Alternatively, open `index.html` directly in your browser.
 ---
-
 # ⛏️ Built With
 
 This project is built using the following technologies:
