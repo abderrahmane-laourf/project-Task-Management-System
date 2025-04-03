@@ -6,7 +6,6 @@
  *  - Add new products manually or from an external API.
  *  - Calculate total price based on price, taxes, ads, and discount.
 
-
  *  - Switch between light and dark mode.
  *  - Store product data in local storage.
  *  - Display, update, and delete products.
