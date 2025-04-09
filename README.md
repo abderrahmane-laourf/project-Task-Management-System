@@ -37,6 +37,7 @@ To get started with the Task Manager app, follow these steps:
     https://github.com/abderrahmane-laourf/project-Task-Management-System.git
     ```
 
+
 2. **Navigate to the project directory**:
     ```bash
     project crud
