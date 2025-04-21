@@ -1,7 +1,7 @@
 # Task Manager App 📋
 A simple, lightweight web application to manage tasks with CRUD operations (Create, Read, Update, Delete), search functionality, and theme switching. Built using HTML, CSS, and JavaScript
 ### Inspired From 
-  https://youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE&si=aKXquakxbC7vBTB5
+ https://youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE&si=aKXquakxbC7vBTB5
 ## Features
 - **➕ Add Tasks**:Create new tasks easily.
 - **✏️ Edit Tasks**
