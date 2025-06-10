@@ -1,5 +1,6 @@
 
 /**
+
  *  Product Management System - JavaScript Code
  *  
  *  This code implements a simple product
