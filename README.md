@@ -13,7 +13,6 @@ A simple, lightweight web application to manage tasks with CRUD operations (Crea
 
   
 ## 🖼️🌞  img with light mode:
-
 ![Screenshot 2024-12-30 132538](https://github.com/user-attachments/assets/b67a3ebf-1166-42bf-985c-5e90245bdd4b)
 
 
