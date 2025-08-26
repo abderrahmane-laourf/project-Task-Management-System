@@ -10,7 +10,6 @@
  *  - Display, update, and delete products.
  *  - Search for products by title or category.
 
-
  */
 // Global Variables
 let mood = 'creat'; // Current mode: 'creat' for creating new products, 'update' for updating existing products.
