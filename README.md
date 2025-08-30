@@ -7,6 +7,8 @@ A simple, lightweight web application to manage tasks with CRUD operations (Crea
 
 
 
+
+
 - **➕ Add Tasks**:Create new tasks easily.
 - **✏️ Edit Tasks**
 - *: Modify task details anytime.
