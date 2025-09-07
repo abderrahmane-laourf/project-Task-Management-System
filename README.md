@@ -10,6 +10,7 @@ A simple, lightweight web application to manage tasks with CRUD operations (Crea
 - **🔍 Search Tasks**: Find tasks by name or description.
 
 - **🌙 Dark Mode & 🌞 Light Mode**: Switch between themes for comfort
+
 - 
 
 ## 🖼️🌞  img with light mode:
