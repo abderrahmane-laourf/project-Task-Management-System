@@ -9,7 +9,6 @@
  *  - Store product data in local storage.
  *  - Display, update, and delete products.
  *  - Search for products by title or category.
-
  
  */
 // Global Variables
