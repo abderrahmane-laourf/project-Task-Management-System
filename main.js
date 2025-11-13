@@ -8,7 +8,8 @@
  *  - Switch between light and dark mode.
  *  - Store product data in local storage.
  *  - Display, update, and delete products.
- *  - Search for products by title or category. 
+ *  - Search for products by title or category.
+ 
  */
 // Global Variables
 let mood = 'creat'; // Current mode: 'creat' for creating new products, 'update' for updating existing products.
