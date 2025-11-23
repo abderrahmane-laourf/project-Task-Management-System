@@ -4,7 +4,7 @@ A simple, lightweight web application to manage tasks with CRUD operations (Crea
  https://youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE&si=aKXquakxbC7vBTB5
 ## Features
 - **➕ Add Tasks**:Create new tasks easily.
-  
+ 
 - **✏️ Edit Tasks**
 - *: Modify task details anytime.
 
