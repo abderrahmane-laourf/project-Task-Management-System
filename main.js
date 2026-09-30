@@ -27,6 +27,19 @@ let count = document.getElementById("count");
 let Categoris = document.getElementById("Categoris");
 let creat = document.getElementById("creat");
 
+// Simple client-side authentication gate protecting CRUD operations.
+const AUTH_KEY = "isAuthenticated";
+function requireAuth() {
+  if (sessionStorage.getItem(AUTH_KEY) === "true") return true;
+  const pass = prompt("Enter password to continue:");
+  if (pass === "admin123") {
+    sessionStorage.setItem(AUTH_KEY, "true");
+    return true;
+  }
+  alert("Authentication failed.");
+  return false;
+}
+
 // ----------------------------------------------------------------------------
 // API Integration Functions
 // ----------------------------------------------------------------------------
@@ -156,6 +169,7 @@ if (localStorage.products != null) {
  * Also updates the local storage and refreshes the displayed product list.
  */
 creat.onclick = function () {
+  if (!requireAuth()) return;
   // Create a new product object
   let data = {
     title: title.value.toLowerCase(),
@@ -242,6 +256,7 @@ function read() {
  * @param {number} i - The index of the product to delete.
  */
 function delet_data(i) {
+  if (!requireAuth()) return;
   datapro.splice(i, 1);
   localStorage.products = JSON.stringify(datapro);
   read();
@@ -252,6 +267,7 @@ function delet_data(i) {
  * Asks for confirmation with an alert before deleting.
  */
 function delet_all() {
+  if (!requireAuth()) return;
   alert("are you sure"); // Consider using a more user-friendly confirmation dialog
   datapro.splice(0);
   localStorage.clear();
@@ -265,6 +281,7 @@ function delet_all() {
  * @param {number} i - The index of the product to update.
  */
 function update_data(i) {
+  if (!requireAuth()) return;
   title.value = datapro[i].title;
   price.value = datapro[i].price;
   taxes.value = datapro[i].taxes;
